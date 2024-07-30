@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    /* Color de fondo general */
+}
+
+
+
+
+
+.barra-navegacion {
+    background-color: #ffd000;
+    padding: 10px 0;
+
+}
+
+.barra-navegacion ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.barra-navegacion ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.barra-navegacion ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.barra-navegacion ul li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.location-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.location-info {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.location-info h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+.location-info p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.location-info p strong {
+    color: #007bff;
+}
+
+.map-image {
+    margin-top: 20px;
+}
+
+.map-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    /* Aumenta el espacio arriba y abajo del footer */
+    width: 100%;
+    /* Asegura que el footer ocupe todo el ancho de la página */
+    box-sizing: border-box;
+    /* Incluye padding en el cálculo del ancho total */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    max-height: 80px;
+    /* Ajusta según el tamaño deseado */
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+    /* Aumenta el espacio entre los enlaces */
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    /* Aumenta el tamaño del texto para que sea más visible */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-payments {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Aumenta el espacio entre el texto y las imágenes de las tarjetas */
+}
+
+.footer-payments img {
+    max-height: 40px;
+    /* Ajusta según el tamaño deseado */
+}
+
+footer.copyright-footer {
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer.copyright-footer p {
+    margin: 0;
+    font-size: 16px;
+}

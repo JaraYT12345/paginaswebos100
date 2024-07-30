@@ -1,0 +1,360 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    /* Color de fondo general */
+}
+
+.hero-section {
+    background-image: url('https://img.freepik.com/foto-gratis/huevo-fresco-pollo_1150-9506.jpg');
+    /* Imagen de fondo */
+    background-size: cover;
+    /* La imagen cubre todo el contenedor */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita la repetición de la imagen */
+    width: 100%;
+    /* Ocupa todo el ancho de la página */
+    height: 70vh;
+    /* Ocupa el 100% del viewport height */
+    display: flex;
+    /* Usa flexbox para centrar el contenido */
+    flex-direction: column;
+    /* Organiza los elementos en una columna */
+    justify-content: center;
+    /* Centra el contenido verticalmente */
+    align-items: center;
+    /* Centra el contenido horizontalmente */
+    text-align: center;
+    /* Centra el texto */
+    color: white;
+    /* Color del texto */
+    padding: 20px;
+    /* Espacio interno */
+    box-sizing: border-box;
+    /* Incluye padding en el ancho total */
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    /* Tamaño de fuente grande para el título */
+    margin: 0;
+    /* Elimina el margen por defecto */
+    font-weight: bold;
+    /* Hace que el texto sea negrita */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    /* Agrega una sombra al texto */
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    /* Tamaño de fuente mediano para el párrafo */
+    margin: 10px 0 0;
+    /* Espaciado alrededor del párrafo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    /* Agrega una sombra al texto */
+}
+
+
+
+.barra-navegacion {
+    background-color: #ffd000;
+    padding: 10px 0;
+
+}
+
+.barra-navegacion ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.barra-navegacion ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.barra-navegacion ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.barra-navegacion ul li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.contenido-principal {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+
+
+
+.contenedor {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+
+.columna {
+    flex: 1;
+    padding: 20px;
+}
+
+.columna img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.final {
+    text-align: center;
+}
+
+.linea {
+    border-top: 3px solid #000;
+    width: 100%;
+}
+
+
+.ofertas {
+    text-align: center;
+}
+
+
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.separator {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.producto {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+
+}
+
+.producto h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.producto p {
+    margin-top: 5px;
+}
+
+.producto a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.producto a:hover {
+    background-color: #555;
+
+    transform: scale(1.1);
+    /* Aumenta el tamaño al 110% */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Añade una sombra */
+
+}
+
+
+
+
+
+.productos-carousel {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.productos-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.producto {
+    flex: 0 0 auto;
+    width: 200px;
+    margin: 0 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+
+
+.container {
+    text-align: center;
+}
+
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    /* Ajustar padding para hacer el botón más corto */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebe57;
+}
+
+.whatsapp-icon {
+    width: 20px;
+    /* Tamaño del icono */
+    height: 20px;
+    margin-right: 8px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    /* Aumenta el espacio arriba y abajo del footer */
+    width: 100%;
+    /* Asegura que el footer ocupe todo el ancho de la página */
+    box-sizing: border-box;
+    /* Incluye padding en el cálculo del ancho total */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    max-height: 80px;
+    /* Ajusta según el tamaño deseado */
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+    /* Aumenta el espacio entre los enlaces */
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    /* Aumenta el tamaño del texto para que sea más visible */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-payments {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Aumenta el espacio entre el texto y las imágenes de las tarjetas */
+}
+
+.footer-payments img {
+    max-height: 40px;
+    /* Ajusta según el tamaño deseado */
+}
+
+footer.copyright-footer {
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer.copyright-footer p {
+    margin: 0;
+    font-size: 16px;
+}
